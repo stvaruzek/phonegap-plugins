@@ -26,6 +26,10 @@ Using this plugin requires [Android PhoneGap](http://github.com/phonegap/phonega
       &lt;/intent-filter&gt;<br/>
     &lt;/activity&gt;
 
+4. Add the following permission to AndroidManifest.xml file. It should be added inside the &lt;manifest&gt; tag.
+
+    &lt;uses-permission android:name="android.permission.INTERNET" /&gt;
+
 
 ## Using the plugin ##
 
